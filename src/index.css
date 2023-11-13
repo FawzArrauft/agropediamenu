@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flavortext{
+    @apply text-8xl font-display text-white;
+}
+
+.btnketerangan{
+	@apply relative inline-flex rounded-full h-8 w-8 bg-sky-600 border-[5px];
+}
+
+.btnanimate{
+	@apply animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 opacity-95;
+}
+
+.btnbase{
+	@apply relative flex h-8 w-8;
+}
+
+.foodfact{
+	@apply mt-4 bg-[#FA983A] border-4 border-black p-5 pb-10 rounded w-[900px];
+}
+
+.textbahan{
+	@apply mt-3 font-display2 text-[160px] tracking-[.75rem] text-[#FBC531] text-center drop-shadow-[0_10px_8px_rgba(0,0,0,255)];
+}
+
+.textbg{
+	@apply text-[#FBC531] drop-shadow-[0_10px_8px_rgba(0,0,0,255)];
+}
+
+.bintang{
+	@apply text-amber-300 drop-shadow-[0_7px_10px_rgba(0,0,0,255)];
+}
+
+.textfoodname{
+	@apply font-foodname text-white font-bold drop-shadow-[0_9px_5px_rgba(0,0,0,10)] text-7xl;
+}
+
+.homebtn{
+	@apply inline-flex items-center justify-between w-full;
+}
+
+.hometext{
+	@apply text-white text-left font-keterangan text-[40px] leading-[2.5rem] font-bold;
+}
+
+.homefav{
+	@apply text-yellow-500 absolute drop-shadow-[-2px_-1px_5px_rgba(255,255,255,100)] animate-bounce;
+}
+
