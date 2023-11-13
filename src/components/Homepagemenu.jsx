@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import MenuMakananImage from '../assets/img/menu1.png'; // Ganti dengan gambar yang sesuai
 
 const Homepagemenu = () => {

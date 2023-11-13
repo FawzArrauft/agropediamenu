@@ -1,35 +1,30 @@
 import './App.css';
-import Homepagemenu from './components/Homepagemenu';
-import Menu1 from './components/Menu1';
-import Menu2 from './components/Menu2';
-import Menu3 from './components/Menu3';
-import Menu4 from './components/Menu4';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Minuman1 from './components/Minuman1';
-import Minuman2 from './components/Minuman2';
-import Menu5 from './components/Menu5';
-import Menu6 from './components/Menu6';
-import Menu7 from './components/Menu7';
-import NewHompage from './components/Newhompage';
+import Menu from './pages/Menu';
+import Makanan1 from './pages/Makanan1';
+import Makanan2 from './pages/Makanan2';
+import Makanan3 from './pages/Makanan3';
+import Makanan4 from './pages/Makanan4';
+import Makanan5 from './pages/Makanan5';
+import Makanan6 from './pages/Makanan6';
+import Makanan7 from './pages/Makanan7';
+import Menuminuman from './pages/Menuminuman';
 
 function App() {
   return (
-    <div className=''>
-      <Router>
-        <Routes>
-          <Route path='/' element={<NewHompage />} />
-          <Route path='/Menu1' element={<Menu1 />} />
-          <Route path='/Menu2' element={<Menu2 />} />
-          <Route path='/Menu3' element={<Menu3 />} />
-          <Route path='/Menu4' element={<Menu4 />} />
-          <Route path='/Menu5' element={<Menu5 />} />
-          <Route path='/Menu6' element={<Menu6 />} />
-          <Route path='/Menu7' element={<Menu7 />} />
-          <Route path='/Minuman1' element={<Minuman1 />} />
-          <Route path='/Minuman2' element={<Minuman2 />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Menu />} />
+        <Route path='/Menu1' element={<Makanan1 />} />
+        <Route path='/Menu2' element={<Makanan2 />} />
+        <Route path='/Menu3' element={<Makanan3 />} />
+        <Route path='/Menu4' element={<Makanan4 />} />
+        <Route path='/Menu5' element={<Makanan5 />} />
+        <Route path='/Menu6' element={<Makanan6 />} />
+        <Route path='/Menu7' element={<Makanan7 />} />
+        <Route path='/Minuman1' element={<Menuminuman />} />
+      </Routes>
+    </Router>
   );
 }
 

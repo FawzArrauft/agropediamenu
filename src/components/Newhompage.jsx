@@ -8,7 +8,7 @@ import v5 from "../assets/img/homepage/v3.png";
 import v6 from "../assets/img/homepage/v4.png";
 import v7 from "../assets/img/homepage/v8.png";
 import { Link } from 'react-router-dom';
-import { faFileArchive, faStar as solidStar, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NewHompage = () => {
