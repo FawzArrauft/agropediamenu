@@ -186,7 +186,7 @@ const Menu5 = () => {
                     SPAGHETTI BOLOGNESE
                 </h1>
                 <h2 className="mt-3 font-foodname text-[#ffbb00] font-bold textbg shadow-black text-5xl">
-                    Spaghetti with homemade bolognese sauce served with sausage and parsley.
+                    Spaghetti with homemade bolognese sauce and served with chop parsley.
                 </h2>
             </div>
             <div className="foodfact">

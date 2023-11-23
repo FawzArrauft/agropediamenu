@@ -156,19 +156,6 @@ const Menu2 = () => {
               <span className="btnanimate"></span>
               <span className="btnketerangan"></span>
             </button>
-            <button
-              className="btnbase top-[170px] left-[500px]"
-              onClick={() =>
-                openPopup(
-                  "Keju yang dilelehkan hingga creamy dan gurihnya meleleh di mulut",
-                  Bahan1,
-                  "CHEESE SAUCE" // Menetapkan judul pop-up
-                )
-              }
-            >
-              <span className="btnanimate"></span>
-              <span className="btnketerangan"></span>
-            </button>
           </div>
         )}
 
@@ -200,19 +187,6 @@ const Menu2 = () => {
               <span className="btnanimate"></span>
               <span className="btnketerangan"></span>
             </button>
-            <button
-              className="btnbase top-[170px] left-[500px]"
-              onClick={() =>
-                openPopup(
-                  "Keju yang dilelehkan hingga creamy dan gurihnya meleleh di mulut",
-                  Bahan1,
-                  "CHEESE SAUCE" // Menetapkan judul pop-up
-                )
-              }
-            >
-              <span className="btnanimate"></span>
-              <span className="btnketerangan"></span>
-            </button>
           </div>
         ) : null}
         <div className="flex flex-col justify-center items-center my-[365px]">
@@ -238,7 +212,7 @@ const Menu2 = () => {
           </div>
         </div>
         <div className="text-3xl font-keterangan text-justify mb-4 break-normal">
-          Nacho adalah hidangan asli Meksiko yang sederhana, terdiri dari keripik tortilla yang disiram dengan saus keju.
+          Nacho adalah hidangan asli Meksiko yang sederhana, terdiri dari keripik tortilla yang disiram dengan saus keju, saus salsa, dan sour cream.
         </div>
       </div>
       <div className="mt-9 mb-5 flex justify-between items-center">

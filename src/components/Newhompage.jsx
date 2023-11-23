@@ -7,6 +7,10 @@ import v4 from "../assets/img/homepage/v7.png";
 import v5 from "../assets/img/homepage/v3.png";
 import v6 from "../assets/img/homepage/v4.png";
 import v7 from "../assets/img/homepage/v8.png";
+import v9 from "../assets/img/homepage/v9.png";
+import v10 from "../assets/img/homepage/v10.png";
+import v11 from "../assets/img/homepage/v11.png";
+import v12 from "../assets/img/homepage/v12.png";
 import { Link } from 'react-router-dom';
 import { faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -81,7 +85,7 @@ const NewHompage = () => {
                             <FontAwesomeIcon icon={solidStar} size="3x" className=" left-[130px] top-[950px] homefav" />
                             <h2 className="hometext">
                                 MR. B FOR BEEF TERIYAKI
-                                <p className="font-light text-3xl font-mono">Enjoy the tender meat wrapped in teriyaki sauce and 50g fries</p>
+                                <p className="font-light text-3xl font-mono">Enjoy the tender meat wrapped in teriyaki sauce and small fries</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
@@ -99,7 +103,7 @@ const NewHompage = () => {
                             />
                             <h2 className="hometext">
                                 MR. B FOR BEEF BOLOGNESE
-                                <p className="font-light text-3xl font-mono">Enjoy the tender meat wrapped in bolognese sauce and 50g fries</p>
+                                <p className="font-light text-3xl font-mono">Enjoy the tender meat wrapped in bolognese sauce and small fries</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
@@ -117,7 +121,7 @@ const NewHompage = () => {
                             />
                             <h2 className="hometext">
                                 SPAGHETTI BOLOGNESE
-                                <p className="font-light text-3xl font-mono"> Spaghetti with homemade bolognese sauce served with sausage and parsley</p>
+                                <p className="font-light text-3xl font-mono"> Spaghetti with homemade bolognese sauce served with chop parsley</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
@@ -154,7 +158,7 @@ const NewHompage = () => {
                             />
                             <h2 className="hometext">
                                 TACO FIESTA PICO DE GALLO
-                                <p className="font-light text-3xl font-mono">perfect blend of authentic beef tacos with fresh Mexican pico de gallo and 70g fries</p>
+                                <p className="font-light text-3xl font-mono">perfect blend of authentic beef tacos with fresh Mexican pico de gallo and small fries</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
@@ -162,10 +166,82 @@ const NewHompage = () => {
                         </h3>
                     </button>
                 </Link>
+                <Link to={''}>
+                    <button className="homebtn">
+                        <div className="flex items-center gap-10">
+                            <img
+                                src={v9}
+                                alt=""
+                                className="w-36 h-36 justify-center items-center"
+                            />
+                            <h2 className="hometext">
+                                AGROPEDIA IFUMIE
+                                <p className="font-light text-3xl font-mono"></p>
+                            </h2>
+                        </div>
+                        <h3 className="text-right text-white text-5xl font-display">
+                            22.-
+                        </h3>
+                    </button>
+                </Link>
+                <Link to={''}>
+                    <button className="homebtn">
+                        <div className="flex items-center gap-10">
+                            <img
+                                src={v10}
+                                alt=""
+                                className="w-36 h-36 justify-center items-center"
+                            />
+                            <h2 className="hometext">
+                                AGROPEDIA TORI MISO
+                                <p className="font-light text-3xl font-mono"></p>
+                            </h2>
+                        </div>
+                        <h3 className="text-right text-white text-5xl font-display">
+                            20.-
+                        </h3>
+                    </button>
+                </Link>
+                <Link to={''}>
+                    <button className="homebtn">
+                        <div className="flex items-center gap-10">
+                            <img
+                                src={v11}
+                                alt=""
+                                className="w-36 h-36 justify-center items-center"
+                            />
+                            <h2 className="hometext">
+                                SINGAPOREAN FRIED RICE
+                                <p className="font-light text-3xl font-mono"></p>
+                            </h2>
+                        </div>
+                        <h3 className="text-right text-white text-5xl font-display">
+                            24.-
+                        </h3>
+                    </button>
+                </Link>
+                <Link to={''}>
+                    <button className="homebtn">
+                        <div className="flex items-center gap-10">
+                            <img
+                                src={v12}
+                                alt=""
+                                className="w-36 h-36 justify-center items-center"
+                            />
+                            <h2 className="hometext">
+                                THAI FRIED RICE
+                                <p className="font-light text-3xl font-mono"></p>
+                            </h2>
+                        </div>
+                        <h3 className="text-right text-white text-5xl font-display">
+                            25.-
+                        </h3>
+                    </button>
+                </Link>
             </div>
             <div className="mx-80 mt-5">
                 <Link to={'/Minuman1'}>
-                    <button className="inline-flex items-center justify-center p-4 rounded-xl bg-black ring-inset ring-2 ring-white drop-shadow-[2px_2px_5px_rgba(255,255,255,100)] animate-pulse">
+                    <button className="inline-flex items-center justify-center p-4 rounded-xl bg-black ring-inset ring-2 ring-white drop-shadow-[2px_2px_5px_rgba(255,255,255,100)] animate-pulse mb-5">
                         <img
                             src={v7}
                             alt=""

@@ -148,7 +148,7 @@ const Menu7 = () => {
               className="btnbase top-[250px] -left-[50px]"
               onClick={() =>
                 openPopup(
-                  "Roti pipih lembut yang terbuat dari jagung, memberikan dasar yang sempurna untuk sajian taco.",
+                  "Roti pipih khas meksiko lembut yang terbuat dari jagung, memberikan dasar yang sempurna untuk sajian taco.",
                   Bahan2,
                   "CORN TORTILLA" // Menetapkan judul pop-up
                 )
@@ -161,9 +161,9 @@ const Menu7 = () => {
               className="btnbase top-[200px] left-[150px]"
               onClick={() =>
                 openPopup(
-                  "Daging sapi panggang yang menggoda dengan cita rasa yang tajam dan gurih.",
+                  "Daging sapi cincang panggang yang menggoda dengan cita rasa yang tajam dan gurih.",
                   Bahan3,
-                  "GRILL BEEF" // Menetapkan judul pop-up
+                  "GRILL MINCED BEEF" // Menetapkan judul pop-up
                 )
               }
             >
@@ -176,7 +176,7 @@ const Menu7 = () => {
                 openPopup(
                   "Krim asam yang telah mengalami proses fermentasi dengan bakteri asam laktik, memberikan kelezatan dan tekstur unik.",
                   Bahan4,
-                  "SOUR CREAM SAUCE" // Menetapkan judul pop-up
+                  "SOUR CREAM" // Menetapkan judul pop-up
                 )
               }
             >
@@ -218,7 +218,7 @@ const Menu7 = () => {
               className="btnbase top-[250px] -left-[50px]"
               onClick={() =>
                 openPopup(
-                  "Roti pipih lembut yang terbuat dari jagung, memberikan dasar yang sempurna untuk sajian taco.",
+                  "Roti pipih khas meksiko lembut yang terbuat dari jagung, memberikan dasar yang sempurna untuk sajian taco.",
                   Bahan2,
                   "CORN TORTILLA" // Menetapkan judul pop-up
                 )
@@ -231,9 +231,9 @@ const Menu7 = () => {
               className="btnbase top-[200px] left-[150px]"
               onClick={() =>
                 openPopup(
-                  "Daging sapi panggang yang menggoda dengan cita rasa yang tajam dan gurih.",
+                  "Daging sapi cincang panggang yang menggoda dengan cita rasa yang tajam dan gurih.",
                   Bahan3,
-                  "GRILL BEEF" // Menetapkan judul pop-up
+                  "GRILL MINCED BEEF" // Menetapkan judul pop-up
                 )
               }
             >
@@ -246,7 +246,7 @@ const Menu7 = () => {
                 openPopup(
                   "Krim asam yang telah mengalami proses fermentasi dengan bakteri asam laktik, memberikan kelezatan dan tekstur unik.",
                   Bahan4,
-                  "SOUR CREAM SAUCE" // Menetapkan judul pop-up
+                  "SOUR CREAM" // Menetapkan judul pop-up
                 )
               }
             >
