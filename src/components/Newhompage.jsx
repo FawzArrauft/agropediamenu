@@ -11,6 +11,7 @@ import v9 from "../assets/img/homepage/v9.png";
 import v10 from "../assets/img/homepage/v10.png";
 import v11 from "../assets/img/homepage/v11.png";
 import v12 from "../assets/img/homepage/v12.png";
+import dessert from "../assets/img/homepage/dessert.png";
 import { Link } from 'react-router-dom';
 import { faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -166,7 +167,7 @@ const NewHompage = () => {
                         </h3>
                     </button>
                 </Link>
-                <Link to={''}>
+                {/* <Link to={''}>
                     <button className="homebtn">
                         <div className="flex items-center gap-10">
                             <img
@@ -183,7 +184,7 @@ const NewHompage = () => {
                             22.-
                         </h3>
                     </button>
-                </Link>
+                </Link> */}
                 <Link to={''}>
                     <button className="homebtn">
                         <div className="flex items-center gap-10">
@@ -194,11 +195,11 @@ const NewHompage = () => {
                             />
                             <h2 className="hometext">
                                 AGROPEDIA TORI MISO
-                                <p className="font-light text-3xl font-mono"></p>
+                                <p className="font-light text-3xl font-mono">Enjoy Japanese Cuisine with Miso Soup Base mixed with vegetable, eggs, and spring onion</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
-                            20.-
+                            25.-
                         </h3>
                     </button>
                 </Link>
@@ -212,15 +213,15 @@ const NewHompage = () => {
                             />
                             <h2 className="hometext">
                                 SINGAPOREAN FRIED RICE
-                                <p className="font-light text-3xl font-mono"></p>
+                                <p className="font-light text-3xl font-mono">Classic Singaporean Fried Rice</p>
                             </h2>
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
-                            24.-
+                            22.-
                         </h3>
                     </button>
                 </Link>
-                <Link to={''}>
+                {/* <Link to={''}>
                     <button className="homebtn">
                         <div className="flex items-center gap-10">
                             <img
@@ -235,6 +236,31 @@ const NewHompage = () => {
                         </div>
                         <h3 className="text-right text-white text-5xl font-display">
                             25.-
+                        </h3>
+                    </button>
+                </Link> */}
+            </div>
+            <h1 className="text-white text-[70px] font-display tracking-[.45rem] ml-12 text-left drop-shadow-[-3px_-3px_1px_rgba(255,255,255,100)]">
+                DESSERT
+            </h1>
+            <div className="grid grid-cols-1 justify-center items-center ml-8 mr-10 gap-5">
+                {/* Container untuk keterangan (tengah) */}
+                <Link to={''}>
+                    <button className="homebtn">
+                        <div className="flex items-center gap-10">
+                            <img
+                                src={dessert}
+                                alt=""
+                                className="w-36 h-36 justify-center items-center"
+                            />
+                            <FontAwesomeIcon icon={solidStar} size="3x" className=" left-[130px] top-[950px] homefav" />
+                            <h2 className="hometext">
+                                CLASSIC CHOCO BROWNIES
+                                <p className="font-light text-3xl font-mono">Experience the uniqueness of chocolate fusion classic browines</p>
+                            </h2>
+                        </div>
+                        <h3 className="text-right text-white text-5xl font-display ml-3">
+                            11.-
                         </h3>
                     </button>
                 </Link>
